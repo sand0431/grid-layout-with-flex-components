@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    box-sizing: border-box;
+  }
+
+  header.siteheader {
+    text-align: left;
+    padding: 0.5em 0;
+  }
+  
+   main {
+    padding: 1px;
+   
+   }
+  
+    .emojis {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        gap: 10px;
+        
+      
+  }
+
+  .emoji {
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+
+   
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+    
+    
+  }
+  .emoji .icon {
+    font-size: 2em;
+    margin: 10px 0;
+    order: -4;
+    text-align: center;
+    
+  }
+
+   .emoji p {
+    flex-grow: 1;
+   }
+
+  .emoji a {
+    background-color: #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+   
+  .emoji a:hover {
+    text-decoration: underline;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+  ```
